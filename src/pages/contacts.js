@@ -1,15 +1,13 @@
-import Navbar from "./Navbar";
 import Head from "next/head";
 
-export default function Main() {
+export default function Contacts() {
   return (
     <div>
       <Head>
-        <title>Index - Next.js </title>
+        <title>Contacts - Next.js </title>
         <meta name="description" content="Contacts page" />
       </Head>
-      <Navbar />
-      <h1>Index Page</h1>
+      <h1>Contacts Page</h1>
     </div>
   );
 }
